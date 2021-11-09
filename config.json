@@ -3,7 +3,7 @@
   [
     {
       "app":"kiena",
-      "ios_version":"1.0",
+      "ios_version":"0.0.1",
       "android_version":"1.0.2"
     }
   ]
