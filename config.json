@@ -5,6 +5,11 @@
       "app":"kiena",
       "ios_version":"1.0.0",
       "android_version":"1.0.3"
+    },
+    {
+      "app":"kienalocal",
+      "ios_version":"1.0.0",
+      "android_version":"1.0.3"
     }
   ]
 }
