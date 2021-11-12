@@ -10,7 +10,7 @@
     {
       "app":"kienalocal",
       "package_name": "com.famisoft.kienalocal",
-      "ios_version":"1.0.0",
+      "ios_version":"0.0.1",
       "android_version":"1.0.3"
     }
   ]
