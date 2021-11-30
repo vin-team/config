@@ -5,7 +5,7 @@
       "app":"kiena",
       "package_name": "com.famisoft.kiena",
       "ios_version":"1.0.0",
-      "android_version":"1.0.3"
+      "android_version":"1.0.4"
     },
     {
       "app":"kienalocal",
