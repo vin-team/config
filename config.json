@@ -16,7 +16,7 @@
     {
       "app":"tiwi",
       "package_name": "com.tiwi.care",
-      "ios_version":"1.0.0",
+      "ios_version":"1.0.1",
       "android_version":"1.0.7"
     }
   ]
