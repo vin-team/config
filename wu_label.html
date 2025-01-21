@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<html><head>   
     <style>
     .table, .th, .td {
       border: 1.5px solid black;
@@ -6,20 +6,24 @@
       padding: 6px;
       font-weight:bold;
     }
+    .td2 {
+    padding-top:6px;
+    padding-bottom:6px;
+    }
     div {
-    font-size: 10pt;
+    font-size: 25pt;
     font-weight:bold;
     }
     .h0 {
-      font-size: 25pt;
+      font-size: 65pt;
       font-weight:bold;
     }
     .h1 {
-      font-size: 15pt;
+      font-size: 40pt;
       font-weight:bold;
     }
     .h2 {
-      font-size: 12pt;
+      font-size: 30pt;
       font-weight:bold;
     }
     
@@ -27,7 +31,7 @@
     </head>
     <body>
     <table style="width:100%">
-       <tbody><tr valign="center">
+       <tbody><tr valign="top">
           <th colspan="2">
              <div class="">
                 <table style="width:100%">
@@ -47,30 +51,30 @@
                 </tbody></table>
           </div></th>
           <th rowspan="2">
-          <table style="width:60px" class="table">
+          <table style="width:140px;height:220px" class="table">
           <tbody><tr>
           <td align="left" class="td h0">55</td>
           </tr>
           <tr>
-          <td class="td" style="height:60px"></td>
+          <td class="td" style="height:80px"></td>
           </tr>
           </tbody></table>
           </th>
        </tr>
        <tr>
        <td style="white-space: nowrap; padding-right:5px">
-       <div><div class="h2">Lot:23109852</div>
+       <div><div class="h2" style="margin-bottom:20">Lot:23109852</div>
        <table style="width:100%" class="table h2">
-       <tbody><tr><td>GROSS WT:</td><td align="left">15.369</td><td align="right">kg</td></tr>
-       <tr><td>TARE WT:</td><td align="left">0.003</td><td align="right">kg</td></tr>
-       <tr class="td"><td>NET WT:</td><td align="left">15.001</td><td align="right">kg</td></tr>
+       <tbody><tr><td class="td2">GROSS WT:</td><td align="left">15.369</td><td align="right">kg</td></tr>
+       <tr><td  class="td2">TARE WT:</td><td align="left">0.003</td><td align="right">kg</td></tr>
+       <tr class="td"><td  class="td2">NET WT:</td><td align="left">15.001</td><td align="right">kg</td></tr>
        </tbody></table>
        
        </div>
        
        </td>
-       <td align="Center">
-       <div><img src="./WU Label_files/saved_resource" alt="" width="90" height="90">
+       <td align="Left">
+       <div style="margin-left:15px"><img src="https://api.qrserver.com/v1/create-qr-code/?data={a:10,b:20,c:30,d:40}" alt="" width="300" height="300">
       
        </div>
        </td>
@@ -78,7 +82,7 @@
        <tr>
        <td><div style="margin-bottom:7px">Weighed By: _______________</div>
        <div>Checked By: _______________</div></td>
-       <td><div style="margin-bottom:7px">Date:21/01/2025</div><div>Date: ____/____/____</div></td>
+       <td><div style="margin-left:15px;margin-bottom:7px">Date:21/01/2025</div><div style="margin-left:15px;">Date: ____/____/____</div></td>
        <td></td>
        </tr>
     </tbody></table>
